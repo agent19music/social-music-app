@@ -1,0 +1,117 @@
+name: music_social_client
+description: A beautiful music social platform with dating and live battles
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # UI & Animations
+  flutter_animate: ^4.3.0
+  lottie: ^3.0.0
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.9
+  
+  # Cards & Swipe
+  flutter_card_swiper: ^7.0.0
+  
+  # Networking
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  socket_io_client: ^2.0.3
+  
+  # Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # Authentication
+  # flutter_secure_storage: ^9.2.2  # Temporarily disabled due to compilation issue
+  
+  # Images
+  cached_network_image: ^3.3.1
+  image_picker: ^1.0.7
+  
+  # Location
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  
+  # Audio
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+  
+  # Utilities
+  intl: ^0.18.1
+  timeago: ^3.6.0
+  uuid: ^4.3.3
+  url_launcher: ^6.2.4
+  share_plus: ^7.2.1
+  
+  # Icons & Fonts
+  cupertino_icons: ^1.0.6
+  phosphor_flutter: ^2.0.1
+  google_fonts: ^6.1.0
+  
+  # Forms & Validation
+  reactive_forms: ^16.1.1
+  
+  # Charts & Visualization
+  fl_chart: ^0.66.2
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.2
+  
+  # Platform specific
+  flutter_displaymode: ^0.6.0  # Android high refresh rate
+  
+  # Responsive Design
+  responsive_framework: ^1.1.1
+  
+  # Haptic Feedback
+  haptic_feedback: ^0.4.1
+  
+  # Permissions
+  permission_handler: ^11.2.0
+  
+  # HTTP for avatar API
+  http: ^1.1.2
+  
+  # Blur effects
+  flutter_blurhash: ^0.8.2
+  
+  # Custom animations
+  rive: ^0.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  retrofit_generator: ^8.0.6
+  riverpod_generator: ^2.3.9
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+  freezed_annotation: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/albumart/
+    - assets/images/mbdtfaa.jpg
+    - assets/animations/
+    - assets/icons/
+    - assets/fonts/
