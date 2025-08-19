@@ -142,7 +142,7 @@ class _InviteFriendsModalState extends State<InviteFriendsModal>
                                     size: 28,
                                   ),
                                   const SizedBox(width: 12),
-                                  Expanded(
+                                  const Expanded(
                                     child: Text(
                                       'Invite Friends to Party',
                                       style: TextStyle(

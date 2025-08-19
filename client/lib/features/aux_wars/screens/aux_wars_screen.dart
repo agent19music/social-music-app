@@ -498,7 +498,7 @@ class _AuxWarsScreenState extends State<AuxWarsScreen>
                                             ),
                                           ],
                                         ),
-                                        child: Row(
+                                        child: const Row(
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             Icon(
@@ -506,7 +506,7 @@ class _AuxWarsScreenState extends State<AuxWarsScreen>
                                               color: Colors.white,
                                               size: 16,
                                             ),
-                                            const SizedBox(width: 4),
+                                            SizedBox(width: 4),
                                             Text(
                                               'Tap to skip',
                                               style: TextStyle(
@@ -540,7 +540,7 @@ class _AuxWarsScreenState extends State<AuxWarsScreen>
                           size,
                           isMobile,
                         ))
-                    .toList(),
+                    ,
 
                 // Bottom player
                 _buildBottomPlayer(context, isDesktop, isMobile),
@@ -643,12 +643,12 @@ class _AuxWarsScreenState extends State<AuxWarsScreen>
                       color: Colors.grey.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Row(
+                    child: const Row(
                       children: [
-                        const Icon(Icons.photo_camera_outlined,
+                        Icon(Icons.photo_camera_outlined,
                             color: Colors.white70, size: 16),
-                        const SizedBox(width: 4),
-                        const Text(
+                        SizedBox(width: 4),
+                        Text(
                           'PARTY',
                           style: TextStyle(
                             color: Colors.white70,
@@ -667,12 +667,12 @@ class _AuxWarsScreenState extends State<AuxWarsScreen>
                       color: Colors.grey.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Row(
+                    child: const Row(
                       children: [
-                        const Icon(Icons.playlist_play,
+                        Icon(Icons.playlist_play,
                             color: Colors.white70, size: 16),
-                        const SizedBox(width: 4),
-                        const Text(
+                        SizedBox(width: 4),
+                        Text(
                           'PLAYLIST',
                           style: TextStyle(
                             color: Colors.white70,

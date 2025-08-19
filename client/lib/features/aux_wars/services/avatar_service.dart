@@ -1,5 +1,3 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 
 class AvatarService {
   static const String _baseUrl = 'https://api.tapback.co';
